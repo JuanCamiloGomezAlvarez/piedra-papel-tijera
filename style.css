@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sono', sans-serif;
+    background-color: rgb(34, 35, 36);
+    color: white;
+}
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(125, 118, 138);
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    margin: 30px;
+}
+
+main{
+    width: 70%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    margin-bottom: 30px;
+}
+
+main div button{
+    width: 10px;
+    height: 10px;
+    font-size: 70px;
+    border: none;
+    position: relative;
+    right: 30px; 
+}
+
+main div button:hover{
+    cursor: pointer;
+    transform: rotate(12deg);
+}
+
+.pcEligio{
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    margin-bottom: 30px;
+    font-size: 70px;
+}
+
+.jugar{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.jugar button{
+    width: fit-content;
+    padding: 8px;
+    margin: 25px;
+    background-color: rgb(66, 62, 177);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 1px, 1px, 4px, 0 rgba(20, 20, 20, 0.2);
+    cursor: pointer;
+}
+
+.inactive{
+    display: none;
+    position: relative;
+}
+
+.move{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
